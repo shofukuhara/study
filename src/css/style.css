@@ -1,0 +1,39 @@
+.splide {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+.splide__arrow--prev {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.splide__arrow--next {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.splide__pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.splide__slide {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.splide__slide .img {
+  width: 60vw;
+  height: 100vh;
+  object-fit: cover;
+}

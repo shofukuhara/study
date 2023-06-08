@@ -6,15 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/splide-core.min.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div class="container">
-
+  <div class="content">
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="src/img/slide01.jpg" alt="" class="img">
+          </li>
+          <li class="splide__slide">
+            <img src="src/img/slide02.jpg" alt="" class="img">
+          </li>
+          <li class="splide__slide">
+            <img src="src/img/slide03.jpg" alt="" class="img">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="splide__pagination"></ul>
   </div>
+
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+<script src="src/js/splide.min.js"></script>
 <script src="src/js/index.js"></script>
 
 </html>
